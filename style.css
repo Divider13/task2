@@ -6,7 +6,7 @@ body {
     background-color: rgb(235, 251, 255);
 }
 
-#menu_id {
+#menu_id , #menu_footer {
     height: 32px;
     border-radius: 10px;
     border-width: 2px;
@@ -124,3 +124,12 @@ input[type="submit"], input[type="reset"] {
    align-items: center;
    width: 100%;
 }
+
+ #menu_footer {
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    font-size: smaller;
+ }
