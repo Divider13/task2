@@ -100,7 +100,7 @@ input[type="text"], input[type="email"], select, textarea {
 
 input[type="submit"], input[type="reset"] {
     width: 100px;
-    background-color: #002fff;
+    background-color: rgb(0, 162, 255);
     color: white;
     padding: 10px 15px;
     margin: 8px 0;
@@ -112,7 +112,7 @@ input[type="submit"], input[type="reset"] {
 }
 
 .animated_button:hover {
-    background-color: #0056b3;
+    background-color: #002fff;
 }
 .animated_button:active {
     transform: scale(0.95);
