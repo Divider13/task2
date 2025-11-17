@@ -60,3 +60,26 @@ h4 {
     color: #274fff;
     font-weight: 600;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    overflow: hidden;
+}
+table thead tr {
+    background-color: rgb(0, 162, 255); 
+    color: #ffffff; 
+    text-align: left;
+    font-weight: bold;
+}
+table th,
+table td {
+    padding: 8px 10px; 
+    border:#919191 3px solid; 
+}
+table tbody tr:hover {
+    background-color: #ddd; 
+}
